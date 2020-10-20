@@ -12,6 +12,8 @@ public final class App {
         if (nombre == 1 ) {
             nombrEnLettre = "I";
 
+        } else if (nombre == 2 ) {
+            nombrEnLettre = "II";
         }
         return nombrEnLettre;
     }
