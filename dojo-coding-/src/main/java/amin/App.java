@@ -12,8 +12,11 @@ public final class App {
         if (nombre == 1 ) {
             nombrEnLettre = "I";
 
-        } else if (nombre == 2 ) {
+        } else if(nombre == 2 ) {
             nombrEnLettre = "II";
+        } else if (nombre == 3){
+            nombrEnLettre = "III";
+
         }
         return nombrEnLettre;
     }

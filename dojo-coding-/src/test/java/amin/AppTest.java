@@ -22,5 +22,6 @@ class AppTest {
     void testLettreRomain() {
         assertEquals("I", App.TestLettreRomain(1));
         assertEquals("II", App.TestLettreRomain(2));
+        assertEquals("III", App.TestLettreRomain(3));
     }
 }
